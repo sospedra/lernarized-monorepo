@@ -5,11 +5,16 @@
   "description": "Sum all the provided arguments",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "ava"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^20.0.4"
+    "ava": "^0.19.1"
+  },
+  "ava": {
+    "files": [
+      "*.spec.js"
+    ]
   }
 }
