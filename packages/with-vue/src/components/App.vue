@@ -7,7 +7,15 @@
         alt="vue"
         class="logo"
       />
-      <h1>Welcome to Vue.js</h1>
+
+      <h3>Public shared module</h3>
+      <p className="App-intro">
+        {{ lodash }}
+      </p>
+
+      <h3>Private <code>/core</code> shared module</h3>
+      <p>The binary Mayer–Vietoris sequence init sum is</p>
+      <h4>1 + 2 + 4 + 8 + 5 = {{ sumN }}</h4>
     </div>
     <div class="bottom">
       To get started, edit <code>./src/components/App.vue</code> and save to reload.<br/>
