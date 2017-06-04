@@ -4,6 +4,7 @@
   },
   "scripts": {
     "build": "lerna run build",
+    "clean": "lerna clean",
     "install": "lerna bootstrap --hoist",
     "start": "lerna run start",
     "test": "lerna run test",
