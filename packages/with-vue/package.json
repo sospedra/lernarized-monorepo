@@ -13,22 +13,25 @@
     "test": "cross-env NODE_ENV=test ava"
   },
   "babel": {
-    "presets": ["vue-app"]
+    "presets": [
+      "vue-app"
+    ]
   },
   "author": {
     "name": "sospedra",
     "email": "sospedra.r@gmail.com"
   },
-	"ava": {
+  "ava": {
     "babel": "inherit",
     "require": [
       "./test/helpers/setup.js"
     ]
   },
   "dependencies": {
-    "offline-plugin": "^4.8.0",
+    "lodash": "^4.17.4",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
+    "offline-plugin": "^4.8.0",
     "promise-polyfill": "^6.0.2"
   },
   "devDependencies": {
