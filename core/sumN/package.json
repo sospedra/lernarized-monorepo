@@ -1,6 +1,7 @@
 {
   "name": "sumn",
   "version": "1.0.0",
+  "private": true,
   "description": "Sum all the provided arguments",
   "main": "index.js",
   "scripts": {
